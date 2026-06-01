@@ -17,21 +17,20 @@ Hecho con curiosidad por Van & Purim 🐶
 ## Structure
 
 ```
-skills/
-├── engineering/     # Code quality, conventions, problem solving
-│   ├── git-conventional/
-│   └── problem-solving/
-├── learning/        # Knowledge processing, summarization, study methods
-│   ├── adler/
-│   ├── auto/
-│   ├── concept-map/
-│   ├── condense/
-│   ├── cornell/
-│   ├── feynman/
-│   ├── retrieval/
-│   ├── spaced/
-│   └── sq3r/
-└── productivity/    # Workflow and session management
+not-engineer-skills/
+├── git-conventional/        # Conventional commits
+├── problem-solving/         # Structured problem-solving
+└── skills/
+    └── learning/            # Summarization & study methods
+        ├── adler/
+        ├── auto/
+        ├── concept-map/
+        ├── condense/
+        ├── cornell/
+        ├── feynman/
+        ├── retrieval/
+        ├── spaced/
+        └── sq3r/
 ```
 
 ## Quickstart
@@ -45,12 +44,12 @@ Each skill is a self-contained `SKILL.md`. Copy what you need.
 
 ## What's here
 
-### Engineering
+### Standalone
 
 | Skill | What it does |
 |-------|-------------|
-| [`git-conventional`](./skills/engineering/git-conventional/SKILL.md) | Enforce conventional commits across your project |
-| [`problem-solving`](./skills/engineering/problem-solving/SKILL.md) | Structured problem-solving methodology for complex debugging |
+| [`git-conventional`](./git-conventional/SKILL.md) | Enforce conventional commits across your project |
+| [`problem-solving`](./problem-solving/SKILL.md) | Structured problem-solving methodology for complex debugging |
 
 ### Learning
 
@@ -65,6 +64,8 @@ Each skill is a self-contained `SKILL.md`. Copy what you need.
 | [`retrieval`](./skills/learning/retrieval/SKILL.md) | Spaced retrieval practice from summaries |
 | [`spaced`](./skills/learning/spaced/SKILL.md) | Spaced repetition scheduling |
 | [`sq3r`](./skills/learning/sq3r/SKILL.md) | Survey, Question, Read, Recite, Review |
+
+> Each method is also available as a standalone repo under [Agents4Life/smart-summarize](https://github.com/Agents4Life/smart-summarize).
 
 ## License
 
