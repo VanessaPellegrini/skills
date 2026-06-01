@@ -14,6 +14,8 @@ Hecho con curiosidad por Van & Purim 🐶
 
 ```
 skills/
+├── WIP/                      # Work in progress
+│   └── focused-review/
 ├── not-engineer-skills/      # Code quality, conventions, problem solving
 │   ├── git-conventional/
 │   └── problem-solving/
@@ -40,6 +42,12 @@ Each skill is a self-contained `SKILL.md`. Copy what you need.
 
 ## What's here
 
+### WIP
+
+| Skill | What it does |
+|-------|-------------|
+| [`focused-review`](./WIP/focused-review/SKILL.md) | Multi-scope code review: feature, flow, hotspot, architecture, type contracts |
+
 ### not-engineer-skills
 
 | Skill | What it does |
@@ -47,7 +55,7 @@ Each skill is a self-contained `SKILL.md`. Copy what you need.
 | [`git-conventional`](./not-engineer-skills/git-conventional/SKILL.md) | Enforce conventional commits across your project |
 | [`problem-solving`](./not-engineer-skills/problem-solving/SKILL.md) | Structured problem-solving methodology for complex debugging |
 
-### learning → smart-summarize
+### learning / smart-summarize
 
 | Skill | What it does |
 |-------|-------------|
@@ -60,8 +68,6 @@ Each skill is a self-contained `SKILL.md`. Copy what you need.
 | [`retrieval`](./learning/smart-summarize/retrieval/SKILL.md) | Spaced retrieval practice from summaries |
 | [`spaced`](./learning/smart-summarize/spaced/SKILL.md) | Spaced repetition scheduling |
 | [`sq3r`](./learning/smart-summarize/sq3r/SKILL.md) | Survey, Question, Read, Recite, Review |
-
-> smart-summarize is also available as a standalone repo: [Agents4Life/smart-summarize](https://github.com/Agents4Life/smart-summarize)
 
 ## License
 
