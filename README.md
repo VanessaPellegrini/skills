@@ -1,27 +1,24 @@
 <p align="center">
-  <strong>not-engineer-skills</strong>
+  <strong>skills</strong>
 </p>
 
 <p align="center">
-  Agent skills for the rest of us.
+  Agent skills. Small, composable, opinionated. Based on real work, not vibe coding.
 </p>
 
 ---
-
-# Not Engineer Skills
-
-My agent skills. Small, composable, opinionated. Based on real work, not vibe coding.
 
 Hecho con curiosidad por Van & Purim 🐶
 
 ## Structure
 
 ```
-not-engineer-skills/
-├── git-conventional/        # Conventional commits
-├── problem-solving/         # Structured problem-solving
-└── skills/
-    └── learning/            # Summarization & study methods
+skills/
+├── not-engineer-skills/      # Code quality, conventions, problem solving
+│   ├── git-conventional/
+│   └── problem-solving/
+└── learning/                 # Knowledge processing, summarization, study methods
+    └── smart-summarize/
         ├── adler/
         ├── auto/
         ├── concept-map/
@@ -36,36 +33,35 @@ not-engineer-skills/
 ## Quickstart
 
 ```bash
-# Clone and copy to your agent's skills directory
-git clone https://github.com/VanessaPellegrini/not-engineer-skills.git
+git clone https://github.com/VanessaPellegrini/skills.git
 ```
 
 Each skill is a self-contained `SKILL.md`. Copy what you need.
 
 ## What's here
 
-### Standalone
+### not-engineer-skills
 
 | Skill | What it does |
 |-------|-------------|
-| [`git-conventional`](./git-conventional/SKILL.md) | Enforce conventional commits across your project |
-| [`problem-solving`](./problem-solving/SKILL.md) | Structured problem-solving methodology for complex debugging |
+| [`git-conventional`](./not-engineer-skills/git-conventional/SKILL.md) | Enforce conventional commits across your project |
+| [`problem-solving`](./not-engineer-skills/problem-solving/SKILL.md) | Structured problem-solving methodology for complex debugging |
 
-### Learning
+### learning → smart-summarize
 
 | Skill | What it does |
 |-------|-------------|
-| [`adler`](./skills/learning/adler/SKILL.md) | Adlerian summary — distill core ideas hierarchically |
-| [`auto`](./skills/learning/auto/SKILL.md) | Auto-select the best summarization method |
-| [`concept-map`](./skills/learning/concept-map/SKILL.md) | Visual knowledge maps with relationships |
-| [`condense`](./skills/learning/condense/SKILL.md) | Maximum compression, minimum loss |
-| [`cornell`](./skills/learning/cornell/SKILL.md) | Cornell notes — cues, notes, summary |
-| [`feynman`](./skills/learning/feynman/SKILL.md) | Feynman technique — explain it simply |
-| [`retrieval`](./skills/learning/retrieval/SKILL.md) | Spaced retrieval practice from summaries |
-| [`spaced`](./skills/learning/spaced/SKILL.md) | Spaced repetition scheduling |
-| [`sq3r`](./skills/learning/sq3r/SKILL.md) | Survey, Question, Read, Recite, Review |
+| [`adler`](./learning/smart-summarize/adler/SKILL.md) | Adlerian summary — distill core ideas hierarchically |
+| [`auto`](./learning/smart-summarize/auto/SKILL.md) | Auto-select the best summarization method |
+| [`concept-map`](./learning/smart-summarize/concept-map/SKILL.md) | Visual knowledge maps with relationships |
+| [`condense`](./learning/smart-summarize/condense/SKILL.md) | Maximum compression, minimum loss |
+| [`cornell`](./learning/smart-summarize/cornell/SKILL.md) | Cornell notes — cues, notes, summary |
+| [`feynman`](./learning/smart-summarize/feynman/SKILL.md) | Feynman technique — explain it simply |
+| [`retrieval`](./learning/smart-summarize/retrieval/SKILL.md) | Spaced retrieval practice from summaries |
+| [`spaced`](./learning/smart-summarize/spaced/SKILL.md) | Spaced repetition scheduling |
+| [`sq3r`](./learning/smart-summarize/sq3r/SKILL.md) | Survey, Question, Read, Recite, Review |
 
-> Each method is also available as a standalone repo under [Agents4Life/smart-summarize](https://github.com/Agents4Life/smart-summarize).
+> smart-summarize is also available as a standalone repo: [Agents4Life/smart-summarize](https://github.com/Agents4Life/smart-summarize)
 
 ## License
 
