@@ -46,6 +46,26 @@ Look for these in the project root and `docs/`:
 
 Generated: [date]
 
+## Relationship Graph
+
+```mermaid
+graph LR
+    ADR-0007[ADR-0007\nPostgres write model] --> CONTEXT.md
+    ADR-0007 --> src/modules/auth.ts
+    PRD-001[PRD-001\nAuth flow] --> ADR-0007
+    PRD-001 --> CONTEXT.md
+    ADR-0003[ADR-0003\nInfra choice] --> src/components/Login.tsx
+    ADR-0002[ADR-0002\n???]
+
+    style ADR-0007 fill:#f96,stroke:#333,color:#000
+    style ADR-0003 fill:#f96,stroke:#333,color:#000
+    style ADR-0002 fill:#999,stroke:#333,color:#000
+    style PRD-001 fill:#69f,stroke:#333,color:#000
+    style CONTEXT.md fill:#9c6,stroke:#333,color:#000
+```
+
+> Nodes with most connections = god nodes. Gray nodes = orphans.
+
 ## Summary
 - Total artifacts: N
 - Edges found: N
@@ -79,6 +99,21 @@ Generated: [date]
 - PRD-001 mentions "auth" but no ADR covers auth decisions
 - CONTEXT.md missing terms: "session", "refresh_token"
 ```
+
+## Mermaid Graph Rules
+
+- **Direction**: `graph LR` (left-to-right). Use `graph TB` if >15 nodes.
+- **Node format**: `ID[Label\nSubtitle]` — include a short subtitle for context.
+- **Arrow direction**: `From --> To` means "From references/depends on To".
+- **Colors by type**:
+  - ADRs: `fill:#f96,stroke:#333,color:#000` (orange)
+  - PRDs/Specs: `fill:#69f,stroke:#333,color:#000` (blue)
+  - Context/Guides (AGENTS.md, CONTEXT.md): `fill:#9c6,stroke:#333,color:#000` (green)
+  - Code files: `fill:#c9f,stroke:#333,color:#000` (purple)
+  - Orphans: `fill:#999,stroke:#333,color:#000` (gray)
+- **Size**: god nodes get bold labels. `ID**> Label **`
+- **Layout**: group by type using subgraphs if >10 nodes.
+- **Render**: Mermaid renders natively in Obsidian and GitHub.
 
 ## Rules
 
