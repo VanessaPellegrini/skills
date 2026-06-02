@@ -8,8 +8,6 @@
 
 ---
 
-Hecho con curiosidad por Van & Purim 🐶
-
 ## Structure
 
 ```
