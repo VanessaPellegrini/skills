@@ -14,6 +14,8 @@
 skills/
 ├── WIP/                      # Work in progress
 │   └── focused-review/
+├── engineer/          # Engineering and code quality
+│   └── van-code-review/
 ├── not-engineer-skills/      # Code quality, conventions, problem solving
 │   ├── git-conventional/
 │   ├── problem-solving/
@@ -54,6 +56,12 @@ Each skill is a self-contained `SKILL.md`. Copy what you need.
 | [`git-conventional`](./not-engineer-skills/git-conventional/SKILL.md) | Enforce conventional commits across your project |
 | [`problem-solving`](./not-engineer-skills/problem-solving/SKILL.md) | Structured problem-solving methodology for complex debugging |
 | [`van-docs`](./not-engineer-skills/van-docs/SKILL.md) | Decide whether and where to document, keep docs from rotting, and require OpenAPI for every HTTP API |
+
+### engineer
+
+| Skill | What it does |
+|-------|-------------|
+| [`van-code-review`](./engineer/van-code-review/SKILL.md) | Review changes for correctness, security, structural quality, and removable over-engineering |
 
 ### learning / smart-summarize
 
