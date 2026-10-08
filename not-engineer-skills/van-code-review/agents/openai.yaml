@@ -1,0 +1,4 @@
+interface:
+  display_name: "Van Code Review"
+  short_description: "Rigorous correctness, quality, and simplification review"
+  default_prompt: "Use $van-code-review to audit the current branch changes."
